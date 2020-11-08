@@ -1,14 +1,14 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Fausto's Blog
+email:       faustovaz@gmail.com
+author:      Jefferson Fausto Vaz
+description: "Blog sobre o que eu quiser."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "https://faustovaz.xyz"
 date_format: "%b %-d, %Y"
-header_pages:
- - about.md
- - contact.html
+#header_pages:
+# - about.md
+# - contact.html
 
 # Google services
 google_verification:
@@ -47,11 +47,11 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: faustovaz
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: faustovaz
 skype_username:
 steam_nickname:
 google_plus_id:
@@ -98,16 +98,16 @@ text:
     related_posts:  'Related Posts'
   index:
     coming_soon: 'Coming soon...'
-  contact:
-    email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
-    ajax:
-      sending:  'sending..'
-      sent:     'Message sent!'
-      error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  # contact:
+  #   email:    'Email Address'
+  #   content:  'What would you like to say?'
+  #   subject:  'New submission!'
+  #   submit:   'Say Hello'
+  #   ajax:
+  #     sending:  'sending..'
+  #     sent:     'Message sent!'
+  #     error:    'Error!'
+  # thanks: 'Thanks for contacting us. We will reply as soon as possible.'
   og_locale: 'en_US'
 
 # Build settings
@@ -115,7 +115,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
+paginate:     10
 sass:
   style: compressed
 plugins:
