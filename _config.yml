@@ -6,9 +6,9 @@ description: "Blog sobre o que eu quiser."
 baseurl:     ""
 url:         "http://faustovaz.xyz"
 date_format: "%b %-d, %Y"
-#header_pages:
-# - about.md
-# - contact.html
+header_pages:
+ - notes.md
+ - tts.md
 
 # Google services
 google_verification:
@@ -110,7 +110,7 @@ text:
       error:    'Error!'
   thanks: 'Thanks for contacting us. We will reply as soon as possible.'
   og_locale: 'en_US'
-  
+
 # Build settings
 markdown:     kramdown
 redcarpet:
