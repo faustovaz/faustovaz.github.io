@@ -4,7 +4,7 @@ email:       faustovaz@gmail.com
 author:      Jefferson Fausto Vaz
 description: "Blog sobre o que eu quiser."
 baseurl:     ""
-url:         "https://faustovaz.xyz"
+url:         "http://faustovaz.xyz"
 date_format: "%b %-d, %Y"
 #header_pages:
 # - about.md
@@ -77,6 +77,7 @@ share_reddit: false
 share_stumbleupon: false
 share_hackernews: false
 
+
 text:
   pagination:
     newer: 'Newer'
@@ -98,18 +99,18 @@ text:
     related_posts:  'Related Posts'
   index:
     coming_soon: 'Coming soon...'
-  # contact:
-  #   email:    'Email Address'
-  #   content:  'What would you like to say?'
-  #   subject:  'New submission!'
-  #   submit:   'Say Hello'
-  #   ajax:
-  #     sending:  'sending..'
-  #     sent:     'Message sent!'
-  #     error:    'Error!'
-  # thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  contact:
+    email:    'Email Address'
+    content:  'What would you like to say?'
+    subject:  'New submission!'
+    submit:   'Say Hello'
+    ajax:
+      sending:  'sending..'
+      sent:     'Message sent!'
+      error:    'Error!'
+  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
   og_locale: 'en_US'
-
+  
 # Build settings
 markdown:     kramdown
 redcarpet:
