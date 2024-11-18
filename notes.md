@@ -5,4 +5,4 @@ permalink: /notes/
 tags: notes
 ---
 
-Go to [notes](https://notes.faustovaz.xyz)
+Go to [notes](https://faustovaz.github.io/notes)
